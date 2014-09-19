@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/airbrake/airbrake
+  revision: 0336e7f9948e0d7cea1297bdea0cde59790ec5e2
+  tag: v4.1.0
+  specs:
+    airbrake (4.1.0)
+      builder
+      multi_json
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -111,6 +120,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  airbrake!
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails

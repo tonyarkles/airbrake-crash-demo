@@ -45,3 +45,4 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'omniauth'
+gem 'airbrake', git: 'git://github.com/airbrake/airbrake', tag: 'v4.1.0'
