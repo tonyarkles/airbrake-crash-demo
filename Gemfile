@@ -46,5 +46,7 @@ end
 
 gem 'omniauth'
 gem 'airbrake', git: 'git://github.com/airbrake/airbrake', tag: 'v4.1.0'
+#gem 'airbrake', git: 'git://github.com/tonyarkles/airbrake', branch: 'fixing_issue_313'
+
 gem 'byebug'
 gem 'puma'
