@@ -1,4 +1,8 @@
 <h1>Hi There Airbrake Team!</h1>
 <div id="user_nav">
+  <% if current_user %>
+  <pre>Current User: <%= current_user %></pre>
+  <% else %>
   <%= link_to "Sign in", "/auth/developer"%>
+  <% end %>
 </div>
